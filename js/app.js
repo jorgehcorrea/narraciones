@@ -67,7 +67,9 @@
   /* ---------------------------------------------------------------- */
   function toStreamURL(url) {
     if (!url || url.startsWith('PASTE_')) return null;
-    return url + (url.includes('?') ? '&' : '?') + 'download=1';
+    // Route through /api/audio so the server can attach a fresh pre-auth token.
+    // btoa produces standard base64; encodeURIComponent escapes +/= for the URL.
+    return '/api/audio?u=' + encodeURIComponent(btoa(url));
   }
 
   function formatTime(sec) {
