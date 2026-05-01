@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Narraciones — Jorge Correa</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header>
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-label" id="narratorLabel">Narrado por</span>
+        <span class="logo-name">Jorge Correa</span>
+      </div>
+      <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
+    </div>
+  </header>
+
+  <main id="app" role="main"></main>
+
+  <div class="player-bar" id="playerBar" role="region" aria-label="Reproductor de audio">
+    <div class="player-track-info">
+      <span class="player-book-title" id="playerBookTitle"></span>
+      <span class="player-chapter-title" id="playerChapterTitle"></span>
+    </div>
+    <div class="player-controls">
+      <button class="ctrl-btn skip-btn" id="btnRewind" aria-label="Retroceder 15 segundos">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M12.5 8c-2.65 0-5.05.99-6.9 2.6L2 7v9h9l-3.62-3.62c1.39-1.16 3.16-1.88 5.12-1.88 3.54 0 6.55 2.31 7.6 5.5l2.37-.78C21.08 11.03 17.15 8 12.5 8z" fill="currentColor"/>
+        </svg>
+        <span>15</span>
+      </button>
+      <button class="ctrl-btn play-btn" id="btnPlay" aria-label="Reproducir o pausar">
+        <svg class="icon-play" viewBox="0 0 24 24" aria-hidden="true">
+          <polygon points="6,3 20,12 6,21" fill="currentColor"/>
+        </svg>
+        <svg class="icon-pause" viewBox="0 0 24 24" aria-hidden="true" style="display:none">
+          <rect x="5" y="4" width="4" height="16" rx="1" fill="currentColor"/>
+          <rect x="15" y="4" width="4" height="16" rx="1" fill="currentColor"/>
+        </svg>
+      </button>
+      <button class="ctrl-btn skip-btn skip-fwd" id="btnForward" aria-label="Avanzar 15 segundos">
+        <span>15</span>
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+          <path d="M11.5 8c2.65 0 5.05.99 6.9 2.6L22 7v9h-9l3.62-3.62A6.97 6.97 0 0 0 11.5 10c-3.54 0-6.55 2.31-7.6 5.5L1.53 14.72C2.92 10.97 6.85 8 11.5 8z" fill="currentColor"/>
+        </svg>
+      </button>
+    </div>
+    <div class="player-scrubber">
+      <span class="time-display" id="timeCurrent">0:00</span>
+      <input type="range" id="scrubber" min="0" max="100" value="0" step="0.1" aria-label="Posición de reproducción">
+      <span class="time-display time-total" id="timeTotal">0:00</span>
+    </div>
+  </div>
+
+  <audio id="audioEl" preload="none"></audio>
+  <script src="js/app.js"></script>
+</body>
+</html>

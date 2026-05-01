@@ -1,0 +1,118 @@
+﻿{
+  "narrator": "Jorge Correa",
+  "books": [
+    {
+      "id": "el-camino-del-guerrero",
+      "title": "El Camino del Guerrero",
+      "author": "Jorge Correa",
+      "language": "es",
+      "cover_color": "#8B4513",
+      "description": "Un recorrido por la filosofía del guerrero: la mente del principiante, la intuición y el arte de soltar.",
+      "description_en": "A journey through warrior philosophy: beginner's mind, intuition, and the art of letting go.",
+      "chapters": [
+        {
+          "id": "cap-01",
+          "title": "No Era Idiota",
+          "title_en": "He Was No Idiot",
+          "duration": "",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQAekWPhrkUyIICgTeMJAAAAAXDMY_QhcSoTQvxKiEKoLnY"
+        },
+        {
+          "id": "cap-02",
+          "title": "Sexto Sentido",
+          "title_en": "Sixth Sense",
+          "duration": "",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQAekWPhrkUyIICgSuMJAAAAAX7I7QsIoqF2fqal_6xxm5k"
+        },
+        {
+          "id": "cap-03",
+          "title": "La Taza Vacía",
+          "title_en": "The Empty Cup",
+          "duration": "",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQAekWPhrkUyIICgTOMJAAAAASVlDCFJMihoJ-aViH-7Gro"
+        },
+        {
+          "id": "cap-04",
+          "title": "El Ronnin Errante",
+          "title_en": "The Wandering Ronin",
+          "duration": "",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQAekWPhrkUyIICgS-MJAAAAASStD_9a_oKWAk9tbw1Njxg"
+        }
+      ]
+    },
+    {
+      "id": "velazco-ibarra",
+      "title": "Velazco Ibarra",
+      "author": "Jorge Correa",
+      "language": "es",
+      "cover_color": "#1B4F72",
+      "description": "Narración sobre la vida y legado de José María Velasco Ibarra, cinco veces presidente del Ecuador.",
+      "description_en": "A narration on the life and legacy of José María Velasco Ibarra, five-time president of Ecuador.",
+      "chapters": [
+        {
+          "id": "intro",
+          "title": "Introducción",
+          "title_en": "Introduction",
+          "duration": "14:15",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQDoEdpN8FzbQKG0tnvedSv1AUveOw5OjdQvOrHVD8WqRYs"
+        }
+      ]
+    },
+    {
+      "id": "when-things-fall-apart",
+      "title": "When Things Fall Apart",
+      "author": "Pema Chödrön",
+      "language": "en",
+      "cover_color": "#2C3E50",
+      "description": "Enseñanzas budistas sobre cómo trabajar con el dolor, el miedo y la incertidumbre.",
+      "description_en": "Buddhist teachings on how to work with pain, fear, and uncertainty.",
+      "chapters": [
+        {
+          "id": "cap-01",
+          "title": "Introducción y Capítulo 1",
+          "title_en": "Introduction & Chapter 1",
+          "duration": "21:57",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQDzB72lD2euQ4T4MBaRc3mYAQVaIoaRBsj9tTFUE_7J41w"
+        },
+        {
+          "id": "cap-02a",
+          "title": "Capítulo 2 (Parte 1 de 2)",
+          "title_en": "Chapter 2 (Part 1 of 2)",
+          "duration": "7:37",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQD7JpT0xxlcSqpk2m1gF7CkAWZlx_xYmEPczpKSvqLVSHk"
+        },
+        {
+          "id": "cap-02b",
+          "title": "Capítulo 2 (Parte 2 de 2)",
+          "title_en": "Chapter 2 (Part 2 of 2)",
+          "duration": "7:31",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQBjr90cdPPnRYBGURLHtzXTAbVup0jtnx4Wu39oho6Qjgk"
+        },
+        {
+          "id": "cap-03",
+          "title": "Capítulo 3",
+          "title_en": "Chapter 3",
+          "duration": "15:55",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQDHpd_hbENxRomhwNKCY9ZfAa39GGZkTGf9CrhvHoZaijE"
+        },
+        {
+          "id": "cap-04",
+          "title": "Capítulo 4",
+          "title_en": "Chapter 4",
+          "duration": "17:17",
+          "recorded": "",
+          "onedrive_url": "https://1drv.ms/u/c/a03245aee163911e/IQCYyDNrUnCxSKQ1tiWLntXvAcTC_zuPUJuouSDUFDtFgEA"
+        }
+      ]
+    }
+  ]
+}
